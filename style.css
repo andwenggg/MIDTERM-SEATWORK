@@ -1,0 +1,96 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url( https://via.placeholder.com/1920x1080.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+nav{
+   text-align: center; 
+   margin: 30px 0 30px 0;
+}
+nav a{
+    text-align: center;
+    color: rgb(182, 10, 165);
+    text-decoration: none;
+    font-size: large;
+    margin-left: 40px;
+}
+nav a:hover{
+    background-color: darkgray;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0%;
+}
+p{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+#subsection{
+    flex: 1;   
+    margin: 10px;
+    padding: 50px;
+    background-color: #a586a2;
+    box-shadow: 0 2px 2px rgba(37, 14, 36, 0.3);
+}
+.image img{
+    width: 80%;
+    border-style:solid;
+    border-color: cadetblue;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+ }
+.list {
+  color: rgb(250, 242, 249);
+  font-size: large;
+}
+ form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        label {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        }
+        
+        input[type="text"], textarea {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius:5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        }
+        
+        input[type="submit"]:hover {
+        background-color: #ddd;
+        color: black;
+        }
+        
+        footer {
+        background-color:rgb(161, 153, 161);
+        text-align: center;
+        padding: 5px;
+        }
